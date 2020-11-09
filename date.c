@@ -29,8 +29,8 @@ int main(void)
   	case 11:printf("November");break;
   	case 12:printf("December");break;
   }
-  printf(",%d,",year);
-  w=year-2000+(year-2000)/4+5-40+26*(month+1)/10+day-1;
+  printf(",20%.2d,",year);
+  w=year+year/4+5-40+26*(month+1)/10+day-1;
   week=w%7; 
   printf("ÐÇÆÚ%d\n",week);
   return 0;

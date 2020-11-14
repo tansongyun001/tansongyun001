@@ -12,6 +12,6 @@ int main (void)
 	    max = j;
 	  else
 	    max = k;
-	printf ("%d",max);
+	printf ("最大数为：%d",max);
 	return 0;
 }
